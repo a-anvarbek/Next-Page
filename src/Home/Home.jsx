@@ -177,24 +177,23 @@ const GrowthSection = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 120px;
+  gap: 140px;
   flex-wrap: wrap;
 `;
 
 const GrowthImage = styled.img`
-  width:200px;
-  height:280px;
+  width:230px;
+  height:300px;
   
 `;
 
 const GrowthText = styled.p`
   
-  font-size: 50px;
+  font-size: 60px;
   color: #11ccf5;
   font-weight: 600;
   line-height: 1.5;
 `;
-
 
 const ServiceDescription = styled.p`
   color: white;
@@ -308,33 +307,33 @@ const Home = () => {
           </IContainer>
 
           {/* 💡 Our Services Section */}
-          <ServicesSection>
-            <ServicesTitle>Our Services</ServicesTitle>
-            <ServicesGrid>
-              <ServiceCard>
-                <CashContainer src={Coin} alt=""  />
-               
-                <ServiceTitle>For Freelancers</ServiceTitle>
-                <ServiceDescription>
-                  Have a tax paying freelance <br />
-                  career with our help
-                </ServiceDescription>
-              </ServiceCard>
+            <ServicesSection>
+              <ServicesTitle>Our Services</ServicesTitle>
+              <ServicesGrid>
+                <ServiceCard>
+                  <CashContainer src={Coin} alt=""  />
+                
+                  <ServiceTitle>For Freelancers</ServiceTitle>
+                  <ServiceDescription>
+                    Have a tax paying freelance <br />
+                    career with our help
+                  </ServiceDescription>
+                </ServiceCard>
 
-              <ServiceCard>
-                 <CashContainer src={Cash} alt=""  />
-                <ServiceTitle>For Professionals</ServiceTitle>
-                <ServiceDescription>
-                  Be a law-abiding individual by <br />
-                  filing your taxes properly with us
-                </ServiceDescription>
-              </ServiceCard>
+                <ServiceCard>
+                  <CashContainer src={Cash} alt=""  />
+                  <ServiceTitle>For Professionals</ServiceTitle>
+                  <ServiceDescription>
+                    Be a law-abiding individual by <br />
+                    filing your taxes properly with us
+                  </ServiceDescription>
+                </ServiceCard>
 
-              <ServiceCard>
-              <CashContainer src={Usd} alt=""  />
-                <ServiceTitle>For Businesses</ServiceTitle>
-                <ServiceDescription>
-                  Get rid of your business’ <br />
+                <ServiceCard>
+                <CashContainer src={Usd} alt=""  />
+                  <ServiceTitle>For Businesses</ServiceTitle>
+                  <ServiceDescription>
+                    Get rid of your business’ <br />
                   accounting headaches with us
                 </ServiceDescription>
               </ServiceCard>
